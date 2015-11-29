@@ -1,0 +1,115 @@
+body {
+	font-family: "Fridge", Verdana, Tahoma;
+	background: url("images/white-noise.jpg");
+}
+
+Header {
+	background: url("images/file000612102790.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	height: 550px;
+	width: 100%;
+	margin-top: -30px;
+	text-align: center;
+}
+
+.testimonial {
+  	background-color: #9EE177;
+  	font-size: 25px;
+  	font-style: italic;
+  	padding: 40px 80px 40px 80px;
+  	height: 450px;
+}
+
+.about {
+  	background-color: #D785A9;
+  	font-size: 40px;
+  	padding: 40px 80px 40px 80px;
+  	height: 450px;
+}
+
+@font-face {
+    font-family: "Fridge";
+    src: url(Fridge.ttf) format("truetype");
+}
+
+h1 .green {
+	color: #9EE177;
+}
+
+h1 .pink {
+	color: #D785A9;
+}
+
+h1 .blue {
+	color: #72C6E0;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 80px;
+	margin-top: 180px;
+}
+
+ul {
+	position: relative;
+	margin-top: 60px;
+	list-style-type: none;
+	display:inline-block;
+	float: right;
+}
+
+li {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 15px;
+	margin: 0 20px 0 20px;
+	float: left;
+}
+
+
+
+li a {
+	color: black;
+	text-decoration: none;
+}
+
+li a:hover {
+	text-decoration: underline;
+}
+
+.social-icon img {
+	display: inline-block;
+	margin: 20px;
+}
+
+
+p {
+	font-size: 18px;
+}
+
+.midbtn { width: 100px;
+color: purple;
+background-color: mint;
+border: dotted;
+border-color: purple;
+font-size: 20px;}
+
+
+#Give-Form {
+	display: none;
+}
+
+#Get-Form {
+	display: none;
+}
+
+#footer {
+	background-color: #9EE177;
+	position: relative;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+

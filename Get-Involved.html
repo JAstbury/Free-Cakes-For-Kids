@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<script src="jquery.js"></script>
+	<title>Give or Get Cake</title>
+  <link href='dist/css/bootstrap.css'rel='stylesheet'>
+	<link rel="stylesheet"type="text/css"href="index.css">
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+</head>
+
+<body>
+
+<header>
+
+  <div class='menu'>
+
+    <ul>
+        <li><a href "index.html">HOME.</a></li>
+        <li><a href "#">ABOUT.</a></li>
+        <li><a href "get-involved.html">GET INVOLVED.</a></li>
+    </ul>
+
+  </div>
+
+<h1 class="customfont">
+
+    <span class="pink">F</span><span class="green">R</span><span class="blue">E</span><span class="green">E</span>
+    <span class="pink">C</span><span class="green">A</span><span class="blue">K</span><span class="green">E</span><span class="blue">S</span>
+    <br/>
+    <span class="green"> F</span><span class="pink">O</span><span class="blue">R</span> <span class="pink">K</span><span class="blue">I</span><span class="green">D</span><span class="pink">S</span>
+    <br/>
+    <span class="green">U</span><span class="blue">K</span>
+
+</h1>
+
+</header>
+
+<div class="row">
+    <div class="col-sm-6 about">
+      INFO ABOUT VOLUNTEERING
+    </div>
+
+    <div class="col-sm-6 testimonial">
+      "Our children are all in difficult circumstances - many may never have had a homemade cake before. The mums like it, too - it's a lovely surprise and we believe it can help repair relationships."
+    </div>
+</div>
+
+<div id='Get-Involved'> 
+
+  <button class ='btn btn-lg give-cake'>Give a cake!</button>
+  <button class ='btn btn-lg get-cake'>Get a cake!</button>
+  
+  <div id="Give-Form">
+      <p> To give a cake, fill in the form below</p>
+  
+      <label for="name"> Full name</label>
+      <input type="text">
+      <br/>
+      <label for="email"> Email</label>
+      <input type="email" >
+      <br/>
+      <label for="number"> Contact number</label>
+      <input type="number" >
+      <br/>
+      Where will you give your cake?
+      <select> 
+      <option value='Location'>London
+      </option> 
+      <option value='Location'>Birmingham
+      </option> 
+      <option value='Location'>Manchester
+      </option>
+      </select>
+      <br/>
+      What type of cake can you make?
+      <label for="cakes"> </label> <br/>
+      <input type='checkbox' name='options' value='value 1' />Dairy-free
+      <input type='checkbox' name='options' value='value 2' />Gluten-free
+      <input type='checkbox' name='options' value='value 3' />Vegan
+      <input type='checkbox' name='options' value='value 4' />No dietary restrictions
+      <br/>
+      Within how many days can we get your cake?
+      <label for="days"</label><input type="number">
+      <br/>
+      Within how many days can we get your cake?
+      <label for="days">Number of days</label> <input type="number">
+    
+      <button class="give-btn">Submit form</button>   
+  
+  <div id='spec'> Thank you for submitting this form, once your specifications are matched with a beneficiary, we will be in touch with more details </div>
+
+</div>
+
+
+<div id="Get-Form">
+
+  <p>To get a cake, fill in the form below</p>
+
+    <label for="name"> Full name of parent/guardian</label>
+    <input type="text">
+    <br/>
+    <label for="email"> Email</label>
+    <input type="email" >
+    <br/>
+    <label for="number"> Contact number</label>
+    <input type="number">
+    <br/>
+    Where will you collect your cake?
+    <select> 
+    <option value='Location'>London
+    </option> 
+    <option value='Location'>Birmingham
+    </option> 
+    <option value='Location'>Manchester
+    </option>
+    </select>
+    <br/>
+    What type of cake do you want?
+    <label for="cakes"> </label> <br/>
+    <input type='checkbox' name='options' value='value 1' />Dairy-free
+    <input type='checkbox' name='options' value='value 2' />Gluten-free
+    <input type='checkbox' name='options' value='value 3' />Vegan
+    <input type='checkbox' name='options' value='value 4' />No dietary restrictions
+    <br/>
+    When do you want the cake?
+    <label for="date"></label> <input type="date" calendar>
+
+    <button class="get-btn">Submit form</button>
+
+  <div id='match'> Thank you for submitting this form, once your specifications are matched with a volunteer, we will be in touch with more details </div>
+</div>
+
+</div>
+
+<div id="footer">
+  <div class="social-icon">
+    <a target="_blank" href="https://www.facebook.com/freecakesuk/"><img src='images/facebook.png'></a>
+    <a target="_blank" href="https://www.instagram.com/cake/"><img src='images/instagram.png'></a>
+    <a target="_blank" href="https://twitter.com/KidsFREEcakes"><img src='images/twitter.png'></a>
+  </div>
+</div>
+
+</body>
+
+<script src="index.js"></script>
+
+</html>
