@@ -16,7 +16,4 @@ $(".give-btn").click(function(){
 });
 
 
-$(".menu li").hover(function(){
-    $('.menu li').css("color", "purple")
-});
 
