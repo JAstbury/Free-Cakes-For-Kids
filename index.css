@@ -15,7 +15,7 @@ Header {
 	background-size: cover;
 	position: relative;
 	text-align: center;
-	height: 500px;
+	height: 100%;
 }
 
 h1 .green {
@@ -32,13 +32,23 @@ h1 .blue {
 
 h1 {
 	display: inline-block;
-	font-size: 80px;
+	font-size: 100px;
 	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+
+h2 {
+	text-decoration: underline;
+	margin-left: 10px;
+	margin-top: 100px;
+	text-align: left;
+	font-style: underline;
 }
 
 /*NAVIGATION BAR*/
 
-ul {
+.menu ul {
 	position: relative;
 	margin-top: 40px;
 	list-style-type: none;
@@ -46,7 +56,7 @@ ul {
 	float: right;
 }
 
-li {
+.menu li {
 	font-size: 30px;
 	font-weight: bold;
 	padding: 15px;
@@ -55,12 +65,12 @@ li {
 }
 
 
-li a {
+.menu li a {
 	color: black;
 	text-decoration: none;
 }
 
-li a:hover {
+.menu li a:hover {
 	text-decoration: underline;
 	font-color: #D785A9;
 }
@@ -84,50 +94,101 @@ li a:hover {
 
 .about {
   	background-color: #D785A9;
-  	font-size: 40px;
-  	padding: 40px 80px 40px 80px;
+  	font-size: 37px;
+  	padding: 40px 80px 50px 80px;
+  	text-align: center;
+  	padding-bottom: 500em;
+    margin-bottom: -500em;
 }
 
 .img-circle {
 	border-radius;
+	float: left;
+	margin-right: 20px;
 }
 
 .testimonial {
   	background-color: #9EE177;
-  	font-size: 25px;
+  	font-size: 23px;
   	font-style: italic;
-  	padding: 40px 80px 40px 80px;
+  	padding: 30px 60px 40px 70px;
+  	text-align: center;
+  	padding-bottom: 400em;
+    margin-bottom: -400em;
+}
+
+.row2 {
+	overflow: hidden;
+    width: 100%;
 }
 
 
 /*GET INVOLVED PAGE*/
 
-.midbtn {
-	width: 100px;
-	color: purple;
-	background-color: mint;
-	border: dotted;
-	border-color: purple;
-	font-size: 20px;
+.main {
+	text-align: center;
 }
 
-
 #Give-Form {
+	text-align: center;
 	display: none;
+}
+.give {
+	color: purple;
+	background-color: #D785A9;
+	font-size: 20px;
+}
+.give-btn {
+	color: purple;
+	background-color: #D785A9;
+	font-size: 20px;
+}
+#spec {
+	color: white;
 }
 
 #Get-Form {
+	text-align: center;
 	display: none;
 }
+.get {
+	color: purple;
+	background-color: #9EE177;
+	font-size: 20px;
+}
+.get-btn{
+	color: purple;
+	background-color: #9EE177;
+	font-size: 20px;
+}
+#match {
+	color: white;
+}
+
 
 /*SLIDER*/
 
 
+.jcarousel-wrapper {
+    margin: 20px auto;
+    margin-top: 100px;
+    position: relative;
+    border: 10px solid #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
+
+/** Carousel **/
+
 .jcarousel {
     position: relative;
     overflow: hidden;
+    width: 100%;
 }
-
 
 .jcarousel ul {
     width: 20000em;
@@ -137,7 +198,93 @@ li a:hover {
     padding: 0;
 }
 
-
 .jcarousel li {
+    width: 200px;
     float: left;
+    border: 1px solid #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+.jcarousel img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+}
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 4px #F0EFE7;
+    -moz-box-shadow: 0 0 4px #F0EFE7;
+    box-shadow: 0 0 4px #F0EFE7;
+}
+
+.jcarousel-control-prev {
+    left: 15px;
+}
+
+.jcarousel-control-next {
+    right: 15px;
+}
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    margin: 0;
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+
+    font-size: 11px;
+    height: 10px;
+    width: 10px;
+    line-height: 10px;
+
+    background: #fff;
+    color: #4E443C;
+    border-radius: 10px;
+    text-indent: -9999px;
+
+    margin-right: 7px;
+
+
+    -webkit-box-shadow: 0 0 2px #4E443C;
+    -moz-box-shadow: 0 0 2px #4E443C;
+    box-shadow: 0 0 2px #4E443C;
+}
+
+.jcarousel-pagination a.active {
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+
+    -webkit-box-shadow: 0 0 2px #F0EFE7;
+    -moz-box-shadow: 0 0 2px #F0EFE7;
+    box-shadow: 0 0 2px #F0EFE7;
+}
+

@@ -1,4 +1,3 @@
-
 $(".give-cake").click(function(){
     $('#Give-Form').show(); $('#Get-Form').hide();
 });
@@ -14,9 +13,4 @@ $(".get-btn").click(function(){
 
 $(".give-btn").click(function(){
     $('#spec').css("color", "purple")
-});
-
-$(function() {
-    $('.jcarousel').jcarousel({
-       list: ".jcarousel-list"
 });

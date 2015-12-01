@@ -1,0 +1,224 @@
+body {
+	text-align: center;
+	font-family: "Fridge", Verdana, Tahoma;
+	background: url("images/sprinkles.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	margin-top: -15px;
+	}
+
+@font-face {
+    font-family: "fridge";
+    src: url(fridge.ttf) format("truetype");
+}
+
+
+Header {
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	height: 400px;
+	width: 100%;
+	margin-top: -30px;
+	text-align: center;
+}
+
+h1 .green {
+	color: #9EE177;
+	text-shadow: 5px 5px 3px grey;
+}
+
+h1 .pink {
+	color: #D785A9;
+	text-shadow: 5px 5px 3px grey;
+}
+
+h1 .blue {
+	color: #72C6E0;
+	text-shadow: 5px 5px 3px grey;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 80px;
+	margin-top: 120px;
+}
+
+div.intro{
+	width:fixed;
+	background-color: #FF69B4;
+	opacity:0.95;
+	margin: 20px 20px 20px 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right:10px;
+	font-size: 25px;
+	color: lightcyan;
+}
+
+#press{
+	width:fixed;
+	background-color: tomato;
+	opacity:0.95;
+	margin: 20px 20px 20px 20px;
+	position: relative;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right:10px;
+	font-size: 25px;
+	color: lightcyan;
+}
+
+<style type="text/css">
+
+/*NAVIGATION BAR*/
+
+ul {
+	position: relative;
+	margin-top: 60px;
+	list-style-type: none;
+	display:inline-block;
+	float: right;
+}
+
+li {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 15px;
+	margin: 0 20px 0 20px;
+	float: left;
+}
+
+
+li a {
+	color: black;
+	text-decoration: none;
+}
+
+li a:hover {
+	text-decoration: underline;
+	font-color: #D785A9;
+}
+
+ul {
+	position: relative;
+	margin-top: 60px;
+	list-style-type: none;
+	display:inline-block;
+	float: right;
+}
+
+li {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 15px;
+	margin: 0 20px 0 20px;
+	float: left;
+}
+
+
+li a {
+	color: black;
+	text-decoration: none;
+}
+
+li a:hover {
+	text-decoration: underline;
+	font-color: #D785A9;
+}
+
+.info {
+  font-family: helvetica,sans-serif;
+  font-size: 14px;
+  width: 100px;
+  position: relative;
+  margin: 1em;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 10px #ccc;
+  overflow: hidden;
+}
+
+.indicator {
+  height: 130px;
+}
+.indicator li {
+  position: absolute;
+  top: 200px;
+}
+.insidactor li.current {
+  top: 30px;
+}
+.content {
+  margin: 0;
+  padding: 0;
+}
+.content li {
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+}
+.info{
+	background-color: #5F9EA0;
+	border-radius: 10px;
+	margin: 0px 20px -15px 20px;
+	font-size: 25px;
+	color: lightcyan;
+}
+
+#cakegallery .item{
+    margin: 4px;
+}
+#cakegallery .item img{
+	display:block;
+    width: 15%;
+    height: auto;
+}
+
+div.googlemap{
+	text-align: center;
+	margin: 20px 20px 20px 20px;
+}
+
+
+}
+
+<style type="text/css">
+ 
+#share-buttons img {
+	width: 25px;
+	padding: 5px;
+	border: 0;
+	box-shadow: 0;
+	margin:-20px-10px 0 -10px;
+	display: inline;
+}
+ 
+</style>
+
+.testimonial {
+	display: inline-block;
+	background:rgba(255,255,255,0.85);
+	border-radius: 20px;
+  	width: 200px;
+  	height: 100px;
+  	padding: 20px;
+  	margin: 90px 40px 40px 40px;
+}
+
+.testimonials {
+	background: black;
+}
+
+
+#footer {
+	background: url("images/sprinkles.jpg");
+	height: 50px;
+	position: relative;
+	float: bottom;
+	margin: 0 -10px -50px -10px;
+	text-align: right;
+}

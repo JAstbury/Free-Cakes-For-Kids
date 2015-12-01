@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="jquery.js"></script>
-    <script src="carousel.js"></script>
-	<title>Cakes for Kids UK</title>
-	<link href='dist/css/bootstrap.css'rel='stylesheet'>
-	<link rel="stylesheet"type="text/css"href="index.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cakes for Kids UK</title>
+
+    <link href='dist/css/bootstrap.css'rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+	<script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="carousel.js"></script>
+
 	<link rel="shortcut icon" href="images/favicon.ico" />
 </head>
 
@@ -18,9 +26,9 @@
 	<div class='menu'>
 
 		<ul>
-  			<li class="col-sm-2"><a href "index.html">HOME.</a></li>
-            <li class="col-sm-2"><a href "#">ABOUT.</a></li>
-            <li class="col-sm-4"><a href "get-involved.html">GET INVOLVED.</a></li>
+  			<li><a href "index.html">HOME.</a></li>
+            <li><a href "about.html">ABOUT.</a></li>
+            <li><a href "get-involved.html">GET INVOLVED.</a></li>
 		</ul>
 
 	</div>
@@ -34,7 +42,7 @@
     <br/>
     <span class="green"> F</span><span class="pink">O</span><span class="blue">R</span> <span class="pink">K</span><span class="blue">I</span><span class="green">D</span><span class="pink">S</span>
     <br/>
-    <span class="green">U</span><span class="blue">K</span>
+    
 
 </h1>
 
@@ -43,29 +51,39 @@
 
 </header>
 
-<div class="row">
+<div class="row2">
     <div class="col-sm-6 about">
 
 	   <strong>We are Free Cakes for Kids UK:</strong> A community service for families who find it difficult to provide a birthday cake for their child.
 
     </div>
 
-    <div class="col-sm-2 testimonial">
+    <div class="col-sm-6 testimonial">
         <img class="img-circle" src="images/child.jpg">
-    </div>
-
-    <div class="col-sm-4 testimonial">
-    	"Our children are all in difficult circumstances - many may never have had a homemade cake before. The mums like it, too - it's a lovely surprise and we believe it can help repair relationships."
+    	<p class="quote">"Our children are all in difficult circumstances - many may never have had a homemade cake before. The mums like it, too - it's a lovely surprise and we believe it can help repair relationships."</p>
     </div>
 </div>
 
-<div class="jcarousel">
-    <ul>
-        <li>HELLO</li>
-        <li>WHADDUP</li>
-    </ul>
+<div class="wrapper">
+            
+
+    <div class="jcarousel-wrapper">
+        <div class="jcarousel">
+            <ul>
+                <li><img src="images/cake9.jpg"></li>
+                <li><img src="images/cake2.jpg"></li>
+                <li><img src="images/cake3.jpg"></li>
+            </ul>
+        </div>
+
+            <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+            <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+
+        <p class="jcarousel-pagination"></p>
+    </div>
 </div>
 
+<br/><br/>
 
 <div id="footer">
   <div class="social-icon">
