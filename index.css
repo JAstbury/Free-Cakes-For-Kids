@@ -2,7 +2,7 @@
 
 body {
 	font-family: "Fridge", Verdana, Tahoma;
-	background: url("images/white-noise.jpg");
+	background: url("Images/white-noise.jpg");
 }
 
 @font-face {
@@ -11,7 +11,7 @@ body {
 }
 
 Header {
-	background: url("images/file000612102790.jpg");
+	background: url("Images/file000612102790.jpg");
 	background-size: cover;
 	position: relative;
 	text-align: center;
