@@ -14,3 +14,9 @@ $(".get-btn").click(function(){
 $(".give-btn").click(function(){
     $('#spec').css("color", "purple")
 });
+
+
+$(".menu li").hover(function(){
+    $('.menu li').css("color", "purple")
+});
+
