@@ -212,24 +212,31 @@ h5 { background-color: skyblue;
     padding-bottom: 5px;
 }
 
-
+.row2 {
+    overflow: hidden;
+    width: 100%;
+}
 
 .map {
     background-color: #D785A9;
     font-size: 20px;
+    padding: 40px 60px 40px 70px;
     text-align: center;
-    padding-bottom: 500em;
-    margin-bottom: -500em;
+    padding-bottom: 400em;
+    margin-bottom: -400em;
 }
-.contactus {
+
+#contactus {
     background-color: #9EE177;
-    font-size: 23px;
+    font-size: 50px;
     font-style: normal;
     padding: 40px 60px 40px 70px;
     text-align: center;
     padding-bottom: 400em;
     margin-bottom: -400em;
 }
+
+
 
 
 

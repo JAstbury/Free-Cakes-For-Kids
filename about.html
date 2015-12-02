@@ -50,7 +50,7 @@
 
 </div>
 
-  <div class="col-sm-6 testimonial">
+<div class="col-sm-6 testimonial">
     <div id="press">
       <ul>
      <strong><u>In the Press</u></strong><br/><br/>
@@ -60,43 +60,62 @@
 
       <li><p>"Free Cakes For Kids Reading has made the final of the Skipton Building Society Grassroots Giving awards".<a href="http://www.getreading.co.uk/news/reading-berkshire-news/free-cakes-kids-reading-reach-10081666/">Reading Berkshire News</a></p>
     </p></li></ul>
+
     </div>
+
   </div>
-</div>
+  </div>
+
 
 <!--carousel-->
 
 
-<div class="row">
+<div class="row3">
+  
   <div class="col-sm-6 map">
 
-      <!--<input id="pac-input" class="controls" type="text" placeholder="Find your nearest group" width="20" height="250">-->
-<div class="search">
-  <form action="action_page.php">
-  <input type="search" name="googlesearch" placeholder="Find a group">
-  <input type="submit">
-</form>
-</div>
-<div class="container" id="map-canvas" style="height:px;"></div>
-  <iframe src="https://www.google.com/maps/d/embed?mid=zgxHw8AgpIEE.kM3NJk_MgTwo&z=7&ll=52.338474,-1.270721" width="400" height="500"></iframe>
-</div>
+    <script src="http://maps.googleapis.com/maps/api/js">
+    </script>
+    <div class="googlemap"></div>
+      <script>
+    function initialize() {
+    var mapProp = {
+    center:new google.maps.LatLng(52.508742,-0.120850),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+    };
+    var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  
+
+  <!--<input id="pac-input" class="controls" type="text" placeholder="Find your nearest group" width="20" height="250">-->
+  <div class="search">
+    <form action="action_page.php">
+    <input type="search" name="googlesearch" placeholder="Find a group">
+    <input type="submit">
+    </form>
+  </div>
+  <div class="container" id="map-canvas" style="height:px;"></div>
+    <iframe src="https://www.google.com/maps/d/embed?mid=zgxHw8AgpIEE.kM3NJk_MgTwo&z=7&ll=52.338474,-1.270721" width="400" height="540"></iframe>
+
+ </div>
+
 
 <div id="col-sm-6 contactus"> 
-  
-<h5 class="email">Send e-mail to someone@example.com
-
-<form action="MAILTO:info@freecakesforkids.org.uk" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name" value="your name"><br>
-E-mail:<br>
-<input type="text" name="mail" value="your email"><br>
-Comment:<br>
-<input type="text" name="comment" value="your comment" size="50"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
-</form>
-</h5>
-
+    <h5 class="email"> Get in touch
+    <form action="MAILTO:info@freecakesforkids.org.uk" method="post" enctype="text/plain">
+      Name:<br>
+      <input type="text" name="name" value="your name"><br>
+      E-mail:<br>
+      <input type="text" name="mail" value="your email"><br>
+      Comment:<br>
+      <input type="text" name="comment" value="your comment" size="50"><br><br>
+        <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+    </form>
+    </h5>
 </div>
 
 </div>
