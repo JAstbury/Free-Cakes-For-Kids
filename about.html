@@ -1,132 +1,114 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-  <script src="jquery.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<title>About Free Cakes</title>
-  <link href='dist/css/bootstrap.css'rel='stylesheet'>
-	<link rel="stylesheet" type="type/css"href="index.css">
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Cakes for Kids UK</title>
 
-  <script type="text/javascript" src="jquery.js"></script>
-  <script type="text/javascript" src="jquery.jcarousel.min.js"></script>
-  <script type="text/javascript" src="carousel.js"></script>
+   <link href='dist/css/bootstrap.css'rel='stylesheet'>
+   <link rel="stylesheet" type="text/css" href="index.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
 
-  <link rel="shortcut icon" href="Images/favicon.ico" />
+	<script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="carousel.js"></script>
+
+	<link rel="shortcut icon" href="Images/favicon.ico" />
+
 </head>
 
 <body>
 
 <header>
-   <div class='menu'>
 
-    <ul>
-        <li><a href="index.html">HOME.</a></li>
-        <li><a href="about.html">ABOUT.</a></li>
-        <li><a href="getinvolved.html">GET INVOLVED.</a></li>
-    </ul>
+<div class='menu'>
 
-  </div>
+	<ul>
+  		<li><a href ="index.html">HOME.</a></li>
+        <li><a href ="about.html">ABOUT.</a></li>
+        <li><a href ="getinvolved.html">GET INVOLVED.</a></li>
+	</ul>
 
-<h1 class="customfont">
+</div>
+
+
+
+<h1 class="span4 offset1">
 
     <span class="pink">F</span><span class="green">R</span><span class="blue">E</span><span class="green">E</span>
     <span class="pink">C</span><span class="green">A</span><span class="blue">K</span><span class="green">E</span><span class="blue">S</span>
     <br/>
-    <span class="green"> F</span><span class="pink">O</span><span class="blue">R</span> <span class="pink">K</span><span class="blue">I</span><span class="green">D</span><span class="pink">S</span>    
+    <span class="green"> F</span><span class="pink">O</span><span class="blue">R</span> <span class="pink">K</span><span class="blue">I</span><span class="green">D</span><span class="pink">S</span>
+    <br/>
     
-    
+
 </h1>
+
 </header>
 
-<h2> About.</h2>
-<!-- copied this section over from the homepage - not sure if it's supposed to look like this -->  
 <div class="row2">
-  <div class="col-sm-6 aboutus">
+    <div class="col-sm-6 aboutus">
 
-    <br><strong> "Every Child Deserves a Birthday Cake"</strong></br>
+	   <strong> "Every Child Deserves a Birthday Cake"</strong><br/><br/>
 
-  <p>Free Cakes for Kids began as a small group of home bakers providing fabulous home-made birthday cakes to families in need.  We have now grown to over 90 groups across the UK supporting charities and a local community near you.</p>
-
-</div>
-
-<div class="col-sm-6 testimonial">
-    <div id="press">
-      <ul>
-     <strong><u>In the Press</u></strong><br/><br/>
-      <li><p class="press"> "Hackney Group wins council grant for baking workshops". <a href="http://www.theguardian.com/lifeandstyle/2013/dec/07/free-birthday-cake-charity-for-kids-get-togethers/">The Guardian</a></li><br/>
-
-      <li><p>"Families get so much out of this and recognise that there are people out there who care". <a href="http://www.getwestlondon.co.uk/news/local-news/baking-charity-cakes-kids-asks-6784370Get West London/">Get West London</a></p></li><br/>
-
-      <li><p>"Free Cakes For Kids Reading has made the final of the Skipton Building Society Grassroots Giving awards".<a href="http://www.getreading.co.uk/news/reading-berkshire-news/free-cakes-kids-reading-reach-10081666/">Reading Berkshire News</a></p>
-    </p></li></ul>
+  		<p>Free Cakes for Kids began as a small group of home bakers providing fabulous home-made birthday cakes to families in need.  We have now grown to over 90 groups across the UK supporting charities and a local community near you.</p><br/>
 
     </div>
 
-  </div>
-  </div>
+    <div class="col-sm-6 press">
+        <ul>
+     		<u><strong>In the Press</strong></u>
+      			<li>"Hackney Group wins council grant for baking workshops". <a href="http://www.theguardian.com/lifeandstyle/2013/dec/07/free-birthday-cake-charity-for-kids-get-togethers/">The Guardian</a></li><br/>
 
+      		<li>"Families get so much out of this and recognise that there are people out there who care". <a href="http://www.getwestlondon.co.uk/news/local-news/baking-charity-cakes-kids-asks-6784370Get West London/">Get West London</a></li><br/>
 
-<!--carousel-->
+      		<li>"Free Cakes For Kids Reading has made the final of the Skipton Building Society Grassroots Giving awards". <a href="http://www.getreading.co.uk/news/reading-berkshire-news/free-cakes-kids-reading-reach-10081666/">Reading Berkshire News</a></li>
+      	</ul>
+    </div>
 
+</div>
 
-<div class="row3">
-  
-  <div class="col-sm-6 map">
+<div class="row2">
+    <div class="col-sm-6 map">
 
-    <script src="http://maps.googleapis.com/maps/api/js">
-    </script>
-    <div class="googlemap"></div>
-      <script>
-    function initialize() {
-    var mapProp = {
-    center:new google.maps.LatLng(52.508742,-0.120850),
-    zoom:5,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-    };
-    var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
-    }
-    google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-  
+    	<div class="search">
+    		<form action="action_page.php">
+  			<input type="search" name="googlesearch" placeholder="Find a group">
+  			<input type="submit">
+			</form>
+		</div>
 
-  <!--<input id="pac-input" class="controls" type="text" placeholder="Find your nearest group" width="20" height="250">-->
-  <div class="search">
-    <form action="action_page.php">
-    <input type="search" name="googlesearch" placeholder="Find a group">
-    <input type="submit">
-    </form>
-  </div>
-  <div class="container" id="map-canvas" style="height:px;"></div>
-    <iframe src="https://www.google.com/maps/d/embed?mid=zgxHw8AgpIEE.kM3NJk_MgTwo&z=7&ll=52.338474,-1.270721" width="400" height="540"></iframe>
+	   <div class="container" id="map-canvas" style="height:px;"></div>
+  		<iframe src="https://www.google.com/maps/d/embed?mid=zgxHw8AgpIEE.kM3NJk_MgTwo&z=7&ll=52.338474,-1.270721" width="400" height="500"></iframe><br/><br/>
 
- </div>
+    </div>
 
-
-<div id="col-sm-6 contactus"> 
-    <h5 class="email"> Get in touch
-    <form action="MAILTO:info@freecakesforkids.org.uk" method="post" enctype="text/plain">
+    <div class="col-sm-6 contactus">
+    <img src="Images/cakesforkids.jpg"><br/><br/>
+	Get in touch
+      <form action="MAILTO:info@freecakesforkids.org.uk" method="post" enctype="text/plain">
       Name:<br>
       <input type="text" name="name" value="your name"><br>
       E-mail:<br>
       <input type="text" name="mail" value="your email"><br>
       Comment:<br>
-      <input type="text" name="comment" value="your comment" size="50"><br><br>
+      <input type="text" name="comment" value="your comment" size="40"><br><br>
         <input type="submit" value="Send">
-    <input type="reset" value="Reset">
-    </form>
-    </h5>
+      <input type="reset" value="Reset">
+      </form>
+      <br/>
+
+
+    </div>
 </div>
-
-</div>
-
-
 
 <div id="footer">
   <div class="social-icon">
-    <a target="_blank" href="https://www.facebook.com/freecakesuk/"><img src='images/facebook.png'></a>
-    <a target="_blank" href="https://www.instagram.com/cake/"><img src='images/instagram.png'></a>
-    <a target="_blank" href="https://twitter.com/KidsFREEcakes"><img src='images/twitter.png'></a>
+    <a target="_blank" href="https://www.facebook.com/freecakesuk/"><img src='Images/facebook.png'></a>
+    <a target="_blank" href="https://www.instagram.com/cake/"><img src='Images/instagram.png'></a>
+    <a target="_blank" href="https://twitter.com/KidsFREEcakes"><img src='Images/twitter.png'></a>
   </div>
 </div>
 

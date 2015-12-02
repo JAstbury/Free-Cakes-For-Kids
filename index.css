@@ -151,10 +151,6 @@ h2 {
     background-color: white;
 }
 
-h4 {
-    background-color: white;
-}
-
 #Give-Form {
 	text-align: center;
 	display: none;
@@ -194,22 +190,21 @@ h4 {
 /*ABOUT PAGE*/
 
 .aboutus {
-    background-color: #D785A9;
-    font-size: 30px;
-    padding: 30px 80px 50px 80px;
+    background-color: #72C6E0;
+    font-size: 28px;
+    padding: 40px 60px 40px 70px;
     text-align: center;
-    padding-bottom: 500em;
-    margin-bottom: -500em;
 }
 
-#press {}
+.press {
+    background-color: #9ee177;
+    font-size: 24px;
+    padding: 30px 50px 40px 60px;
+    text-align: center;
+}
 
 .search {
-    margin:10px auto;
-}
-
-h5 { background-color: skyblue;
-    padding-bottom: 5px;
+    margin: 30px auto;
 }
 
 .row2 {
@@ -226,9 +221,9 @@ h5 { background-color: skyblue;
     margin-bottom: -400em;
 }
 
-#contactus {
-    background-color: #9EE177;
-    font-size: 50px;
+.contactus {
+    background: url("Images/metal.png");
+    font-size: 24px;
     font-style: normal;
     padding: 40px 60px 40px 70px;
     text-align: center;
