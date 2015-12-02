@@ -3,12 +3,19 @@
 
 <head>
 
-	<script src="jquery.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<title>Give or Get Cake</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Give or Get Cake</title>
+
   <link href='dist/css/bootstrap.css'rel='stylesheet'>
-	<link rel="stylesheet"type="text/css"href="index.css">
-  <link rel="shortcut icon" href="Images/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.jcarousel.min.js"></script>
+  <script type="text/javascript" src="carousel.js"></script>
+
+  <link rel="shortcut icon" href="Images/favicon.ico" />
 
 </head>
 
@@ -45,7 +52,26 @@
 
 
 </header>
-<div class='main'>
+
+<div class="wrapper">
+            
+
+    <div class="jcarousel-wrapper">
+        <div class="jcarousel">
+            <ul>
+                <li><img src="Images/cake9.jpg"></li>
+                <li><img src="Images/cake2.jpg"></li>
+                <li><img src="Images/cake3.jpg"></li>
+            </ul>
+        </div>
+
+            <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+            <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+
+        <p class="jcarousel-pagination"></p>
+    </div>
+</div>
+
 <div id='Get-Involved'> 
 
 <h2> Get Involved.</h2>
@@ -53,9 +79,13 @@
   <button class ='get btn btn-lg get-cake'>Get a cake!</button>
   
 </div>
-</div>
+
 <br/>
-<h4>
+
+<div class='main'>
+
+<div id="forms">
+
   <div id="Give-Form">
       <p> To give a cake, fill in the form below</p>
       <br/>
@@ -103,6 +133,7 @@
       <br/>
       <button class="give-btn btn btn-lg">Submit form</button>   
   <div id='spec'> Thank you for submitting this form, once your specifications are matched with a beneficiary, we will be in touch with more details </div>
+</div>
   </div>
 
     
@@ -156,7 +187,9 @@
   <div id='match'> Thank you for submitting this form, once your specifications are matched with a volunteer, we will be in touch with more details </div>
 </div>
 
-</h4>
+</div>
+
+
 <div id="footer">
   <div class="social-icon">
     <a target="_blank" href="https://www.facebook.com/freecakesuk/"><img src='Images/facebook.png'></a>
