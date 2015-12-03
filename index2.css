@@ -12,8 +12,7 @@ body {
 }
 
 Header {
-    background: url("Images/file000612102790.jpg");
-    background-attachment: fixed;
+	background: url("Images/file000612102790.jpg");
 	background-size: cover;
 	position: relative;
 	text-align: center;
@@ -43,9 +42,9 @@ h1 {
 
 h2 {
 	text-decoration: underline;
-	padding-top: 50px;
-    padding-bottom: 20px;
-	text-align: center;
+	margin-left: 10px;
+	margin-top: 20px;
+	text-align: left;
 	font-style: underline;
 }
 
@@ -141,39 +140,19 @@ h2 {
 
 /*GET INVOLVED PAGE*/
 
-#Quotes {
-    background-color: #72C6E0;
-    margin-top: -20px;
-    text-align: center;
-}
-
-.Question {
-    font-size: 60px;
-    padding: 20px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-    background: white;
-    display: block;
-    border-radius: 10px;
-}
-
-#questionform {
-    padding-bottom: 5%;
-}
-
 .main {
 	text-align: center;
     background-color: white;
-    border-radius: 10px;
     margin-left: 20%;
     margin-right: 20%;
 }
 
 #forms {
     background-color: white;
-    font-size: 20px;
+}
+
+h4 {
+    background-color: white;
 }
 
 #Give-Form {
@@ -215,24 +194,22 @@ h2 {
 /*ABOUT PAGE*/
 
 .aboutus {
-    background-color: #72C6E0;
-    font-size: 28px;
-    padding: 40px 60px 40px 70px;
+    border-top: 5px;
+    background-color: #ff9326;
+    font-size: 30px;
+    padding: 30px 80px 50px 80px;
     text-align: center;
+    padding-bottom: 500em;
+    margin-bottom: -500em;
 }
 
-.press {
-    background-color: #9ee177;
-    font-size: 24px;
-    padding: 30px 50px 40px 60px;
-    text-align: center;
-}
+
 
 .search {
-    margin: 30px auto;
+    margin:10px auto;
 }
 
-.row2 {
+.row3 {
     overflow: hidden;
     width: 100%;
 }
@@ -240,22 +217,23 @@ h2 {
 .map {
     background-color: #D785A9;
     font-size: 20px;
+    margin-top: 10px;
     padding: 40px 60px 40px 70px;
     text-align: center;
+    padding-bottom: 200em;
+    margin-bottom: -200em;
 }
 
-.contactus {
-    background: url("Images/metal.png");
-    font-size: 24px;
-    font-style: normal;
-    padding: 40px 60px 40px 70px;
-    text-align: center;
-}
 
 img{
     border-radius: 15px;
 }
 
+h5 { background-color: skyblue;
+    font-size: 20px;
+   padding: 80px 70px 150px 70px;
+   text-align: center;
+}
 
 
 
@@ -265,7 +243,7 @@ img{
 .jcarousel-wrapper {
     margin: 20px auto;
     position: relative;
-    border: 10px solid rgba(255,255,255,0.8);
+    border: 10px solid rgba(255,255,255,0.9);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -279,6 +257,7 @@ img{
     width: 100%;
     font-size: 30px;
     font-style: italic;
+    background-color: white;
 }
 
 .jcarousel ul {
@@ -301,7 +280,10 @@ img{
 .jcarousel img {
     display: block;
     max-width: 100%;
-    height: auto !important;
+    max-height: 200px;
+    overflow: hidden;
+    margin:auto;
+
 }
 
 /** Carousel Controls **/
@@ -356,7 +338,7 @@ img{
     width: 10px;
     line-height: 10px;
 
-    background: #fff;
+    background: #4E443C;
     color: #4E443C;
     border-radius: 10px;
     text-indent: -9999px;
