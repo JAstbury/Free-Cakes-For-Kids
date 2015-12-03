@@ -105,9 +105,10 @@ h2 {
 }
 
 .img-circle {
-	border-radius;
-	float: left;
+	border-radius: 50%;
+    float: left;
 	margin-right: 20px;
+    vertical-align:bottom;
 }
 
 .testimonial {
@@ -118,6 +119,7 @@ h2 {
   	text-align: center;
   	padding-bottom: 400em;
     margin-bottom: -400em;
+    vertical-align: bottom;
 }
 
 .row2 {
@@ -133,7 +135,7 @@ h2 {
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: -35px;
+    margin-bottom: 15px;
     border-radius: 15px;
     padding: 10px;
 }
@@ -147,10 +149,20 @@ h2 {
     text-align: center;
 }
 
+.joining {
+    background-color: #D785A9;
+    font-size: 35px;
+    padding: 40px 80px 50px 80px;
+    text-align: center;
+    padding-bottom: 500em;
+    margin-bottom: -500em;
+}
+
+
 .Question {
-    font-size: 60px;
+    font-size: 40px;
     padding: 20px;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 5%;
     margin-left: 20%;
     margin-right: 20%;
@@ -212,6 +224,22 @@ h2 {
 	color: white;
 }
 
+
+.tslider {
+    background-color: #72C6E0;
+    font-size: 28px;
+    text-align: center;
+}
+
+.calendar {
+    background-color: #9EE177;
+    padding-top: -20px;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 500em;
+    margin-bottom: -500em;
+}
+
 /*ABOUT PAGE*/
 
 .aboutus {
@@ -254,6 +282,7 @@ h2 {
 
 img{
     border-radius: 15px;
+    text-align: center;
 }
 
 
@@ -292,6 +321,7 @@ img{
 .jcarousel li {
     width: 200px;
     float: left;
+    background-color: white;
     border: 1px solid #fff;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
