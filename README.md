@@ -1,5 +1,5 @@
-# JAstbury.github.io
-Free Cakes for Kids Website
-
 # Free Cakes for Kids #
-Final project for beginners Code First: Girls course. Group project with Chra Hamid and Janet Pang.
+
+Final project for beginners HTML and CSS Code First: Girls course Dec 2015.
+
+Group project with Chra Hamid and Janet Pang.
